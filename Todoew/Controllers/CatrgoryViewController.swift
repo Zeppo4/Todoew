@@ -15,7 +15,7 @@ class CatrgoryViewController: UITableViewController {
     
     
     
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    //let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
     
   
     
