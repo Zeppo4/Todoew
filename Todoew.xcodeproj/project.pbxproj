@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6372F7D4202BCAB300251D0E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6372F7D2202BCAB300251D0E /* DataModel.xcdatamodeld */; };
+		639616C9203F40D9003A0E59 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639616C8203F40D9003A0E59 /* Item.swift */; };
+		639616CB203F40F9003A0E59 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639616CA203F40F9003A0E59 /* Category.swift */; };
 		63F619C82034C7D9007A7D85 /* CatrgoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F619C72034C7D9007A7D85 /* CatrgoryViewController.swift */; };
 		63F81969201E4A52004F552E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F81968201E4A52004F552E /* AppDelegate.swift */; };
 		63F8196B201E4A52004F552E /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8196A201E4A52004F552E /* TodoListViewController.swift */; };
@@ -20,7 +21,8 @@
 /* Begin PBXFileReference section */
 		08A54E7A21940F47E34E0F36 /* Pods-Todoew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoew.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todoew/Pods-Todoew.release.xcconfig"; sourceTree = "<group>"; };
 		52B62141B16AABCBF0284272 /* Pods_Todoew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6372F7D3202BCAB300251D0E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		639616C8203F40D9003A0E59 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		639616CA203F40F9003A0E59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		63F619C72034C7D9007A7D85 /* CatrgoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatrgoryViewController.swift; sourceTree = "<group>"; };
 		63F81965201E4A52004F552E /* Todoew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F81968201E4A52004F552E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +49,8 @@
 		63B491D0202A4A7500618F44 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				6372F7D2202BCAB300251D0E /* DataModel.xcdatamodeld */,
+				639616CA203F40F9003A0E59 /* Category.swift */,
+				639616C8203F40D9003A0E59 /* Item.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -257,10 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639616C9203F40D9003A0E59 /* Item.swift in Sources */,
 				63F8196B201E4A52004F552E /* TodoListViewController.swift in Sources */,
 				63F619C82034C7D9007A7D85 /* CatrgoryViewController.swift in Sources */,
-				6372F7D4202BCAB300251D0E /* DataModel.xcdatamodeld in Sources */,
 				63F81969201E4A52004F552E /* AppDelegate.swift in Sources */,
+				639616CB203F40F9003A0E59 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,19 +449,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6372F7D2202BCAB300251D0E /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6372F7D3202BCAB300251D0E /* DataModel.xcdatamodel */,
-			);
-			currentVersion = 6372F7D3202BCAB300251D0E /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 63F8195D201E4A52004F552E /* Project object */;
 }
